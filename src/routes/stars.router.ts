@@ -10,5 +10,5 @@ export const router = Router();
 //basepath---> /star
 
 router.get('/', getStarsController)
-router.get('/stars/:id', getStarsByIDController)
+router.get('/:id', getStarsByIDController)
 router.post('/', createStarsController)
